@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
     <title>The Basic Language of the Web: HTML</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine [DEMO]</h1>
       <nav>
         <a href="blog.html">Blog</a>
@@ -17,7 +19,7 @@
       <header>
       <h2>The Basic Language of the Web: HTML</h2>
       <img src="./img/laura-jones.jpg" alt="pic of Laura" width="50" height="50" />
-      <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027 .</p>
+      <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027 .</p>
       <img src="./img/post-img.jpg" alt="post image" height="200" width ="500">
       <p>
       </header>
@@ -45,7 +47,7 @@
       </p>
       <p>In HTML, each element is made up of 3 parts:</p>
       <ol>
-        <li>The opening tag</li>
+        <li class="first-li">The opening tag</li>
         <li>The closing tag</li>
         <li>The actual element</li>
       </ol>
@@ -63,7 +65,7 @@
         web. Here are 5 of them:
       </p>
       <ul>
-        <li>To be able to use the fundamental web dev language</li>
+        <li class="first-li">To be able to use the fundamental web dev language</li>
         <li>
           To hand-craft beautiful websites instead of relying on tools like
           Worpress or Wix
@@ -72,29 +74,30 @@
         <li>To impress friends</li>
         <li>To have fun 😃</li>
       </ul>
+      <p>Hopefull You Learned something new here: See you next time!</p>
     </article>
     <aside>
       <h4>Related Posts</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img src= ./img/related-1.jpg alt="learn 1" height="75" width="75">
           <a href="#">How To Learn Web Development</a>
-          <p>By Jonas Schmtdtmn</p>
+          <p class="related-author">By Jonas Schmtdtmn</p>
         </li>
         <li>
           <img src= ./img/related-2.jpg alt="learn 2" height="75" width="75">
           <a href="#">The Unknown Powers Of Css</a>
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
           <img src= ./img/related-3.jpg alt="learn 3" height="75" width="75">
           <a href="#">Why Javascript Is Awsome</a>
-          <p>By Matilda</p>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
     <footer>
-      Copyright &copy; By The Code Magazine.
+      <p id="copyright">Copyright &copy; By The Code Magazine.</p>
     </footer>
   </body>
 </html>
