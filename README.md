@@ -1,3 +1,3 @@
 # Blog-Post
 
-A blog with pure html
+A blog with pure html and CSS
